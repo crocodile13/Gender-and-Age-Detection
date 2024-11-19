@@ -51,7 +51,7 @@ padding=20
 hasFrame,frame=video.read()
 if not hasFrame:
     #cv2.waitKey()
-    break
+    #break
     
 resultImg,faceBoxes=highlightFace(faceNet,frame)
 if not faceBoxes:
